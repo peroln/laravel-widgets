@@ -20,12 +20,5 @@
     "psr-4": {
       "peroln\\Widgets\\": "src"
     }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "peroln\\Widgets\\WidgetServiceProvider"
-      ]
-    }
   }
 }
