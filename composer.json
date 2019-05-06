@@ -18,8 +18,15 @@
   },
   "autoload": {
     "psr-4": {
-      "peroln\\Widgets\\": "src"
+      "Peroln\\Widgets\\": "src"
     }
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Peroln\\Widgets\\WidgetServiceProvider"
+      ]
+    }
+  }
 }
