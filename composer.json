@@ -20,5 +20,6 @@
     "psr-4": {
       "peroln\\Widgets\\": "src"
     }
-  }
+  },
+  "version": "1.0.0"
 }
