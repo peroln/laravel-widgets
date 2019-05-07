@@ -23,7 +23,7 @@
   },
 
   "extra": {
-    "laravel-widgets": {
+    "laravel": {
       "providers": [
         "Peroln\\Widgets\\WidgetServiceProvider"
       ]
