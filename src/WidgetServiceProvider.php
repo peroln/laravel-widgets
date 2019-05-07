@@ -24,7 +24,7 @@ class WidgetServiceProvider extends ServiceProvider
 
     public function register(){
         App::singleton('widget', function(){
-            return new \peroln\Widgets\Widget();
+            return new \Peroln\Widgets\Widget();
         });
     }
 
