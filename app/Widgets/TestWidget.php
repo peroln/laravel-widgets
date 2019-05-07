@@ -8,7 +8,7 @@
 
 namespace App\Widgets;
 
-use peroln\Widgets\Contract\ContractWidget;
+use Peroln\Widgets\Contract\ContractWidget;
 
 class TestWidget implements ContractWidget
 {
