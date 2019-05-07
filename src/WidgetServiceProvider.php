@@ -16,7 +16,7 @@ class WidgetServiceProvider extends ServiceProvider
     public function boot(){
         $this->publishes([__DIR__ . '/../config/' => config_path() . '/']);
         $this->publishes([__DIR__ . '/../app/' => app_path() . '/']);
-        Blade::directive('widjet', function($name){
+        Blade::directive('widget', function($name){
           return "<?php echo app('widget')->show($name); ?>";
         });
         $this->loadViewsFrom(app_path() . '/Widgets/views', 'Widgets');
